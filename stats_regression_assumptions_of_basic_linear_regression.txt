@@ -1,0 +1,17 @@
+Assumptions when interpreting r
+  (Almost identical to assumptions underlying correlation analysis)
+- Normal distribution for Y
+- Linear relationship between X and Y
+- Homescedasticity
+- Examine residuals to evaluate assumptions
+  (run regression analysis and save the residuals, then)
+
+To test assumptions, save residuals
+  - then look at the residuals as a function of x
+  - x on the x axis
+    - residuals on the y-axis
+
+http://en.wikipedia.org/wiki/Anscombe's_quarte
+
+  If you see a relationship between x and the residuals, there may be a confound in your study - don't have to be linear, but show and relationship and therefore violate linear regression
+

@@ -1,0 +1,10 @@
+* measure of central tendency: measure that describes the middle or center point of a distribution
+  - mean
+    * best when distribution is normal
+  - median
+    * best with extreme positive/negative skew
+  - mode
+    * peak of a histogram
+    * can be used with nominal
+
+

@@ -1,0 +1,65 @@
+NHST
+
+***********
+* SUMMARY *
+***********
+NHST is a procedure for hypothesis testing
+Requires a binary decision
+  - Reject or retain the null hypothesis
+Four possible outcomes
+  - Great: Correct retention, correction rejection
+  - Errors: False Alarm (Type I error), Miss(Type II error)
+
+"A game we play as scientists who do research"
+Some say we should stop playing this game, ban it from scientific research
+
+"Null hypothesis assumes there is no relationship between the variables"
+
+H0 = null hypothesis
+  - for example, r = 0
+  - for example, B = 0
+  - for example, B = 0
+
+HA = alternative hypothesis
+  - for example, r > 0 
+  - for example, B > 0
+  - for example, B != 0 (non-directional test)
+
+If the alternative hypothesis predicts the direction of the relationship between X & Y (positive vs. negative)
+- Directional test
+- Otherwise it is known as a non-directional test
+
+Assume H0 is true, then calculate the probability of observing data with these characteristics, given that H0 is true
+  p = P(D|H0)
+  if p is very low, then reject H0, else retain H0
+
+p-value (statistically significance) comes from the null hypothesis:
+  Given that the null hypothesis is true, the probability of these, or more extreme data, is p
+  NOT: the probability of the null hypothesis being true is p
+  IOW: P(D|H0) != P(H0|D)
+  "probability of obtaning those data, given the assumption that there was no effect/relationship in the study/experiment)
+
+Reject/Retain Grid:
+file:///users/gmoller/cb/stats/images/null_hypothesis_reject_retain.png
+
+Review, as it pertains to NHST:
+  r - is the correlation significantly different from zero?
+  B - is the slope of the regression line for X significantly different from zero?
+
+The way to get to a p-value, we must first calculate a t-value
+  t = B/SE (regression coefficient relative to the standard error)
+      - where standard error is how much sampling error we're going to get due to chance
+      => Most NHSTs are ratios, and are basically:
+        "What did you observe, relative to what do you expect just due to chance"
+        => if what we observed is much higher than that due to chance => HIGH t-value => low p-value
+    - B is the undstandardized regression coefficient
+    - SE = standard error
+    - SE = SQRT[SS.residual/(N - 2)]
+
+
+
+
+
+
+
+

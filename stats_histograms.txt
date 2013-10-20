@@ -1,0 +1,26 @@
+Histograms!
+
+* Used to display a distribution
+* Great to overcome the natural tendency to rely upon summary information, such as an average
+* Can reveal info not captured by summary statistics
+
+Viewing a hist often reveals whether a distribution is normal or not normal
+  - sometimes hard to determine, but then we can use summary stastics to help
+
+
+"The skew is where there's few"
+
+Bimodal - evidence of two peaks
+
+Examples of non-normal distributions:
+  - Bi-modal
+  - Positively Skewed
+  - Negatively Skewed
+  - Uniform (platykurtic)
+  - Leptokurtic
+
+
+
+
+
+

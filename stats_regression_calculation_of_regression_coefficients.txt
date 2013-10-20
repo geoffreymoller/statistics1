@@ -1,0 +1,33 @@
+Important Concepts
+  - Regression equation and model
+  - Ordinary least squares estimation
+  - Unstandardize regression coefficients
+  - Standardized regression coefficients
+
+The values of the coefficients are estimated such that the regression model yields optimal predictions
+
+  - Minimize the residuals (prediction error)
+
+  This is "Ordinary Least Squares" estimation
+    - minimize the sum of the squared (SS) residuals
+
+  Formula for the unstandardized regression coefficient
+    - B1 = r x (SDy/SDx)
+
+  Formula for the standardized regression coefficient
+    (If you put everything into z-scores => SD === 1)
+    - If X and Y are standardized then
+      SDy = SDx = 1
+      B = r x (SDy/SDx)
+      β = r
+        => the standardized regression coefficient (β) is equal to the correlation coefficient, BUT ONLY IN SIMPLE REGRESSION (ONE PREDICTOR)
+
+
+
+http://reifman-sem.blogspot.com/2007/01/today-well-go-over-left-side-of-sem.html
+
+  Unstandardized relationships say that for a one-raw-unit increment on a predictor, the outcome variable increases (or if B is negative, decreases) by a number of its raw units corresponding to what the B coefficient is.
+
+  Standardized relationships say that for a one-standard deviation increment on a predictor, the outcome variable increasess (or decreases) by some number of SD's corresponding to what the β coefficient is.
+
+  When should you use the unstandardized solution and when should you use the standardized one? My own view is as follows: If the raw units are generally familiar (e.g., years, dollars, inches, miles, pounds), I'd go with the unstandardized solution. However, if the variables' raw units are not well-known in everyday usage (e.g., on a marital-satisfaction inventory with a maximum score of 50, what does one point really convey?), then I'd use the standardized solution.

@@ -1,0 +1,52 @@
+* Correlation 
+  - procedure used to measure and describe the relationship between two variables
+  - can range between +1 & -1
+  - think scatterplot
+  - correlation does not imply causation
+  - magnitude of Correlation depends on many factors, including:
+    - sampling
+    - measurement of x & y
+  - the correlation coefficient is a sample statistic, just like the mean
+
+* Calculation of little r
+  - Raw score formula
+  - Z-score formula
+
+r = the degree to which X and Y vary together, relative to the degree to which X and Y vary inedpendently 
+r = (Covariance of X & Y) / (Variance of X & Y)
+
+* Variance = SD^^2 = MS = (SS/N)
+
+To calculate SP:
+
+(x - MsubX) x (Y - MsubY)
+SP = ∑[(X - MsubX) x (Y - MsubY)] 
+
+Get, Practice Formulae 
+  Pearson product-moment correlation coefficient (Pearson's R)
+    - Raw Score Formula
+    - Z-score formula
+  Sum of Cross Products and Covariance
+
+*********************************************
+* Assumptions When Interpreting Pearson's R *
+*********************************************
+
+* Anscombe's Quartet - http://en.wikipedia.org/wiki/Anscombe's_quartet
+
+- normal distributions for X & Y
+  - detect violations - plot hists and examine summary statistics
+- linear relationship between X & Y
+  - detect violations with scatterplots
+- Homescedasticity
+  - means that the distances are not related to the variable plotted on the X axis (they are not a function of X)
+  - detect violations with scatterplots
+
+- Reliability of X  & Y
+- Validity of X & Y
+- Random and representative sampling
+
+
+
+
+

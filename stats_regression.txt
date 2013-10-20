@@ -1,0 +1,49 @@
+Important Topics
+* Simple regression vs multiple regression
+* Regression equation
+* Regression model
+
+* Correlations are good for prediction
+  - use one to predict the other
+
+* Regression: a statistical analyis used to predict scores on an outcome variable, based on scores on one or multiple predictor variables
+
+* Simple Regression: one predictor variable
+* Multiple Regression: multiple predictors
+
+Regression Equation:
+http://janda.org/c10/Lectures/topic04/L25-Modeling.htm
+
+Notation 1: Y = mX + b + e
+- Y is a linear function of X
+- m = slope
+- b = intercept
+- e = error (residual)
+
+Notation 2:
+  Y = B0 + B1X1 + e
+  (In R, function "lm")
+- Y is a linear function of X1
+- B0 = intercept = regression constant
+- B1 = slope = regression coefficient
+- e = error (residual)
+
+  Multiple Regression (adding one) might look like:
+  Y = B0 + B1X1 + B2x2 + e
+
+R = multiple correlation coefficient
+- R = rYY
+- The correlation between the predicted scores and the observed scores
+
+R2 (squared)
+- the percentage of variance in Y explained by the model
+
+The regression model is used to model or predict future behavior
+- the model is just the regression equation
+The goal is to product better models so we can generate more accurate predictions
+- Add more predictor variables, and/or...
+- Develop better predictor variables
+
+
+
+

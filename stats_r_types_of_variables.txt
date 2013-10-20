@@ -1,0 +1,38 @@
+Types of variables
+As you go down the list, you get more information and are able to ask more interesting questions => strive for interval or ratio variables, even though you can't always get it
+
+From classic cognitive psychology
+
+Nominal:
+  Independent vars in experimental research
+  Quasi-independent vars (concussion, gender, etc)
+
+Interval & Ratio Vars:
+  * Depenendent vars in experimental research
+  * Measured vars in correlational research
+
+Discrete vs. Continuous:
+  - Nominal: Discrete
+  - Interval & Ratio: Continuous
+  - Ordinal Variables are technically discreet but they are often treated as continous in statistical analyses
+
+* Nominal - used to assign individual cases to categories
+  - ex: country of origin
+  - permissible statistics: number of cases, mode, contingency correlation
+  - basic empirical ops: determination of equality 
+
+* Ordinal - used to rank order cases
+  - ex: ranking
+  - permissible statistics: median, percentiles 
+  - basic empirical ops: determination of greater or less 
+
+* Interval - also used to rank order, but distance between variables is constant
+  - ex: longitude, latitude
+  - permissible statistics: mean, sd, rank-order correlation, product-moment correlation 
+  - basic empirical ops: determination of equality of intervals or difference 
+
+* Ratio - same as interval, but it has a true "0 Point"
+  - ex: population
+  - ex: temperature on the kelvin scale
+  - permissible statistics: coefficient of variation 
+  - basic empirical ops: determination of equality of ratios 

@@ -1,0 +1,45 @@
+Problems:
+*********
+* Biased by sample size
+  - p-value is based on t-value
+  - t = B/SE
+  - SE = SQRT(SS.residual / (N-2))
+  - (N is in the denominator)
+    => high t-value is associated with a low p-value
+  * A: supplement all NHSTs with estimates of effect size
+    - for example, in regression, report standardized regression coefficients and the model R-squared
+
+* Arbitrary Decision Rule
+  - the cut-off value (alpha) is arbitrary
+  - p < .05 is considered standard but still arbitrary
+  - problems arise when p is close to .05 but not less than .05
+  A: again, supplement NHST with estimates of effect size
+    also, avoid phrases such as "marginally significant" or "highly significant"
+
+* Yokel Local Test
+  - Many researchers use NHST because it's the only approach they know
+  - NHST encourages weak hypothesis testing
+  * A: Learn other forms of hypothesis testing
+    Consider multiple alternative hypothesis
+      model comparison
+
+* Error Prone
+  - Type I errors
+    probability of Type I errors increases when researchers conduct multiple NHSTs
+    (multiple tests on the same data are dependent tests => requires correction)
+  - Type II errors
+    Many fields of research are plagued by a large degree of sampling error, which makes it difficult to detect an effect, even when the effect exists
+    (Huge population and *relatively* small samples => large sampling error)
+
+    A: Replicate significant effects to avoid long-term impact of Type 1 errors
+      Obtain large and representative samples to avoid Type II errors
+
+* Shady Logic
+  - Modus tollens
+  A: remember p = P(D | H0)
+
+  - OR, avoid NHST, and 
+
+  - Report Confidence Intervals only
+  - Apply Bayesian inference
+

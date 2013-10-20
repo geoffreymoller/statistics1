@@ -1,0 +1,36 @@
+combine:
+  vector=c(1,3,5,7)
+  list=c("Blue", 2, 5, "Red")
+
+matrix: 
+
+  m=matrix(1:6,2,3)
+
+  # Create a matrix from a vector
+  m2=matrix(1:6)
+  # Then add dimensionality
+  dim(m2)=c(2,3)
+
+# Create a matrix by binding columns or rows
+  x=1:6
+  y=5:10
+  cbind(x,y) # by column
+  rbind(x,y) # by row
+
+A dataframe is a dynamically typed matrix
+  d=data.frame(subjectID=1:5,gender=c("M","F","F","M","F"),score=c(8,3,6,5,5))
+
+  nrow(d)
+  # Number of columns
+  ncol(d)
+
+  attributes(d)
+  describe(d)
+
+#set a parameter
+par(mfrow = c(2,3)) #to view 6 histograms on one page
+
+concussed <- subset(impact, impact[, 2]=="concussed")
+
+
+

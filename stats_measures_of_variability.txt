@@ -1,0 +1,28 @@
+* sd: the average deviation from the mean in a distribution
+* variation: sd^2
+
+M = (∑X) / N
+SD^2 = [∑(X-M)^2]/N - for descriptive statistics
+SD^2 = [∑(X-M)^2]/(N-1) - for inferential statistics
+
+Z-Score = (X-M)/SD
+  - Number of standard deviations an observation or datum is above the mean.
+  - The Z-scale is the standard scale in statistics
+  - Raw scores can be converted to Z-scores
+  - Z-scores can be used to find percentile rank
+  - The mean Z-score is Z = 0
+  - Positive Z scores are above average
+  - Negative Z scores are below average
+
+Percentile Rank
+  - the percentage of scores that fall at or below a score in a distribution
+  - assume a normal dist
+  - if Z = 0 then the percentile rank = 50th
+  - 50 percent of the distribution falls below the mean
+
+
+
+
+
+
+

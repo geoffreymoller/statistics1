@@ -1,0 +1,56 @@
+***************
+* Reliability *
+***************
+X = true score + bias + error
+A measure X is considered to be reliable as it approaches the true score
+  - we don't know the true score, so we estimate reliability
+
+Methods to estimate reliability
+  - Test/re-test
+  - Parallel tests
+  - Inter-item estimates
+    - most commonly used
+      - Test / re-test ard parallel tests are time consuming
+      - Inter-item is therefore more cost efficient
+        - Randomly select 10 (of 20) items to get sub-set A
+        - The other 10 items become sub-set B
+        - The correlation between X1 and X2 is an estimate of reliability
+
+************
+* Validity *
+************
+
+- What is a construct
+  - an ideal "object" that is not directly observable
+    - as opposed to "real" observable objects
+  
+  - How to operationalize a construct
+    - define it to make it observable and quantifiable
+      - ex: intelligence tests  
+
+  - Construct Validity:
+    - Content Validity
+      - Does the test consist of words that children in the populatio and sample should know
+    - Convergent Validity
+      - Does the test correlate with other, established measures of the same construct
+    - Divergent Validity
+      - Does the test correlate less well with measures designed to test a different type of ability?
+    - Nomological Validity
+      - Are scores onthe test consistent with more general theories, for example, of child development and neuroscience
+
+***************
+* Measurement *
+***************
+- Random and representative sampling
+- Sampling Error
+  - The difference between the population and the sample
+  - can't calculate it exactly, but we can estimate it 
+    - BASED ON THE SIZE OF THE SAMPLE AND THE VARIANCE IN THE POPULATION
+    - also depends on the variance in the population
+    - big sample sizes are GREAT
+- Standard Error
+  - an estimate of the amount of the sampling error
+  - SE = SD / SQRT(N)
+
+
+

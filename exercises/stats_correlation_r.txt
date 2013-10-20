@@ -1,0 +1,91 @@
+What is the correlation between S1 and S2 pre-training?
+A: 0.49
+
+What is the correlation between V1 and V2 pre-training?
+A: 0.90
+
+With respect to the measurement of two distinct constructs, spatial reasoning and verbal reasoning, the pattern of correlations pre-training reveals:
+Convergent validity
+Divergent validity
+Both
+Neither
+
+print(cor(fitness$S1.pre, fitness$S2.pre))
+print(cor(fitness$V1.pre, fitness$V2.pre))
+[1] 0.4920231
+[1] 0.9038863
+A: Convergent (, Both?)
+
+Correlations from the control group could be used to estimate test/retest reliability. If so, which test is most reliable?
+S1
+S2
+V1
+V2
+print(cor(fitness$S1.pre, fitness$S1.post))
+print(cor(fitness$S2.pre, fitness$S2.post))
+rint(cor(fitness$V1.pre, fitness$V1.post))
+print(cor(fitness$V2.pre, fitness$V2.post))
+[1] 0.5710117
+[1] 0.6036798
+[1] 0.7280078
+[1] 0.9166583
+A: V2
+
+Does there appear to be a correlation between spatial reasoning before training and the amount of improvement in spatial reasoning?
+Yes
+No
+spacial_improvement <- (fitness$S1.post - fitness$S1.pre)
+print(cor(fitness$S1.pre, spacial_improvement))
+spacial_improvement2 <- (fitness$S2.post - fitness$S2.pre)
+print(cor(fitness$S2.pre, spacial_improvement2))
+[1] -0.09388729
+[1] -0.07969478
+A: No
+
+Does there appear to be a correlation between verbal reasoning before training and the amount of improvement in verbal reasoning?
+Yes
+No
+verbal_improvement <- (fitness$V1.post - fitness$V1.pre)
+print(cor(fitness$V1.pre, verbal_improvement))
+verbal_improvement2 <- (fitness$V2.post - fitness$V2.pre)
+print(cor(fitness$V2.pre, verbal_improvement2))
+[1] -0.07593293
+[1] 0.05497685
+
+Which group exhibited more improvement in spatial reasoning?
+des
+aer
+aes <- subset(fitness, cond == 'aer')
+des <- subset(fitness, cond == 'des')
+aesS1 <- sum(aes$S1.post) - sum(aes$S1.pre)
+aesS2 <- sum(aes$S2.post) - sum(aes$S2.pre)
+print(aesS1 + aesS2);
+desS1 <- sum(des$S1.post) - sum(des$S1.pre)
+desS2 <- sum(des$S2.post) - sum(des$S2.pre)
+print(desS1 + desS2);
+[1] 707
+[1] 1412
+A: des
+
+Create a color scatterplot matrix for all 4 measures at pre-test. Do the scatterplots suggest two reliable and valid constructs?
+Yes
+No
+base <- fitness[3:10]
+base.r <- abs(cor(base))
+base.color <- dmat.color(base.r)
+base.order <- order.single(base.r)
+cpairs(base, base.order, panel.colors = base.color, gap = .5, 
+  main = "Variables Ordered and Colored by Correlation")
+A: Yes
+
+Create a color scatterplot matrix for all 4 measures at post-test. Do the scatterplots suggest two reliable and valid constructs?
+Yes
+No
+A: Yes
+
+What is the major change from pre-test to post-test visible on the color matrix?
+Variance
+Correlation coefficients
+Construct validity
+All of the above
+A: Variance
