@@ -1,3 +1,6 @@
+What is the difference between correlation and linear regression?
+http://www.graphpad.com/support/faqid/1141/
+
 Important Concepts
   - Regression equation and model
   - Ordinary least squares estimation

@@ -5,7 +5,7 @@ getwd()
 library(psych)
 library(sm)
 
-impact <- read.table("/users/gmoller/Documents/Stats1.13.HW.02.txt", header = T)
+impact <- read.table("/Users/gmoller/Documents/statistics1/exercises/Stats1.13.HW.02.txt", header = T)
 pre <- subset(impact, time == 'pre')
 post <- subset(impact, time == 'post')
 

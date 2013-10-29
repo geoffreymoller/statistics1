@@ -1,0 +1,53 @@
+***********************************
+* The General Linear Model (GLM)  *
+***********************************
+
+GLM is the mathematical framework used in many commons statistical analyses, including multiple regression and ANOVA
+ - ANOVA is typically presented as distinct from multiple regression but it IS a multiple regression
+
+ * Characteristics:
+  - Linear: pairs of variables are assumed to have linear relations
+  - Additive: if one set of variables predict another variable, the effects are thought to be additive
+    BUT! this does not preclude testing non-linear or non-additive effects
+
+    GLM can accomodate such tests, for example, by
+      * Transformation of variables
+        - Transform so non-linear becomes linear
+      * Moderation Analysis
+        - Fake the GLM into testing non-additive effects
+
+ * Examples
+    
+    * Simple Regression
+    * Multiple Regression
+    * Multiple Regression with additional non-additive term (to test for moderation), like:
+      Y = B0, + B1X1 + B2X2 + B3X3 + e
+        * Y = faculty salary
+        * X1 = years since PhD
+        * X2 = number of publications
+        * X3 = (years x pubs) - a non-additive effect!
+
+    * One-way ANOVA
+      * Categorical predictors instead of continuous predictors
+      * Y = B0 + B1X1 + e
+        - Y = faculty salary
+        - X1 = gender
+
+    * Factorial ANOVA
+      * Y = B0 + B1X1 + B2X2 + B3X3 + e
+      Y = faculty salary
+      X1 = gender
+      X2 = race
+      X3 = interaction(gender x race)
+
+    ANOVA
+      * Appropriate when the predictors (IVs) are all categorical and the outcome (DV) is continuous
+        - most common application is to analyze data from randomized experiments
+      * More specifically, randomized experiments that generate more than 2 means
+        - if only 2 means then use:
+          * Independent t-test
+          * Dependent t-test
+
+
+
+

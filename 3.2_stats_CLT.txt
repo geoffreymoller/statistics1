@@ -1,0 +1,55 @@
+* Sampling Distribution
+  
+  - a distribution of sample statistics, obtained from multiple samples
+    - distribution of sample means
+    - distribution of sample correlations 
+    - distribution of sample regression coefficients 
+
+  - It is hypothetical
+    - assume a mean is calculated from a sample, obtained randomly from the population
+    - assume a certain sample size, N
+    - now, assume we had multiple random samples, all of size N, and therefore many sample means
+    - collectively, they form a sampling distribution
+
+  Histograms are used to display distributions
+    - for example, body temperature of a random sample of healthy people
+  - If a distribution is perfectly normal then the properties of the distribution are known
+  - this allows for predictions about the distributions
+    - predictions aren't certain
+    - they are probabilistic
+
+* Central Limit Theorem
+
+  3 Principles
+    - The mean of the sampling distribution is the same as the mean of the population
+      (!!!and if we're assuming the null hypothesis is true => that mean will be 0)
+    - The standard deviation of the sampling distribution is the square root of the variance of sampling distribution
+    - !!! The shape of the sampling distribution is *approximately* normal if either (a) N >= 30 or (b) the of the population distribution is normal
+      - what you get is a t-distribution (from the family of t-distributions) depending on sample size
+      - as your sample size gets smaller, your t-distribution gets wider
+      - => get the p-value by picking your t-distribution based on sample size, and then find the corresponding p-value
+
+    * Multiple Regression
+
+      - Assume the null hypothesis is true
+      - Conduct a study
+      - Calculate B, SE, and t
+      - t = B/SE (regression coefficient / standard error)
+        - it's a ratio of what we observed (rc, the slope relating x/y) relative to what we would expect due to chance
+        - => if I get a t-value of 1, I observed my slope being exactly what is due to chance
+        - => I want t-value of 2 or more to start improving my decision
+        - each t-value has a corresponing p-value, but it depends on the sample size
+        - p-value is a function of t and sample size
+          - !!! it is the area under the curve at that particular t-value and beyond
+            - if you have a high t, then you'll have a low p => you'll reject the null
+            - if you have a low t, then you'll have a high p, you'll retain the null
+
+      - If the null hypothesis is true (B = 0), then no one samples should have a very low or a very high B
+      - I obtained of very high B
+      - Therefore, reject the null hypothesis
+      - Very high and very low is p < .05
+
+
+      * Remember that sampling error and therefore standard error, is largely determined by sample size
+
+

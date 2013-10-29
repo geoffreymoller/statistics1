@@ -1,0 +1,40 @@
+Multiple Regression
+
+GO AHEAD AND WATCH THIS AGAIN
+
+Important Concepts
+  - Multiple regression equation
+  - interpretation of regression coefficients
+
+  Simple Regression
+    - just one predictor (X)
+  Multiple Regression
+    - Multiple predictors (X1, X2, X3, ...)
+
+  Multiple Regression Equation
+    - http://www.csulb.edu/~msaintg/ppa696/696regmx.htm#Elements%20of%20a%20Multiple%20Regression
+
+    - Just add more predictors (Multiple Xs)
+
+    Y = B0 + B1X1 + B2X2 + B3X3 + ... + BkXk
+    Y = B0 + ∑(BxXk)
+
+  R = multiple correlation coefficient
+    - R = ryy
+    - The correlation between the predicted scores and the the observed scores
+  R^2
+    - The percentage of variance in Y explained by the model
+
+  Outcome measure (Y)
+    - Faculty salary (Y)
+  Predictors (X1, X2, X3)
+    - Time since PhD (X1)
+    - Number of publications (X2)
+    - Gender (X3)
+
+  lm(Salary ~ Time + Pubs + Gender)
+
+
+
+
+

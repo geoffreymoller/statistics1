@@ -29,7 +29,7 @@ If the alternative hypothesis predicts the direction of the relationship between
 - Directional test
 - Otherwise it is known as a non-directional test
 
-Assume H0 is true, then calculate the probability of observing data with these characteristics, given that H0 is true
+!!! Assume H0 is true, then calculate the probability of observing data with these characteristics, given that H0 is true
   p = P(D|H0)
   if p is very low, then reject H0, else retain H0
 

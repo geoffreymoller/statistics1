@@ -1,0 +1,29 @@
+1. What is the correlation between salary and years of professional experience?
+0.74 (.75)
+
+2. What is the correlation between salary and courses completed? 
+0.54
+
+3. What is the percentage of variance explained in a regression model with salary as the outcome variable and professional experience as the predictor variable?
+55 (56)
+
+4. Compared to the model from Question 3, would a regression model predicting salary from the number of courses be considered a better fit to the data?
+No
+
+5. Now let's include both predictors (years of professional experience and courses completed) in a regression model with salary as the outcome. Now what is the percentage of variance explained? 
+65
+
+6. What is the standardized regression coefficient for years of professional experience, predicting salary? 
+.74 (.75)
+
+7. What is the standardized regression coefficient for courses completed, predicting salary?
+.54
+
+8. What is the mean of the salary distribution predicted by the model including both years of professional experience and courses completed as predictors? (with 0 decimal places)
+75426
+
+9. What is the mean of the residual distribution for the model predicting salary from both years of professional experience and courses completed? 
+0
+
+10. Are the residuals from the regression model with both predictors normally distributed?
+Yes

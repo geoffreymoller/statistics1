@@ -1,0 +1,35 @@
+**************************************
+* Confidence Intervals for sample means
+**************************************
+"Hard core statisticians would argue you're reporting confidence intervals to get away from the idea of statistical signifinace and NHST"
+
+* All sample statistics, for example a sample mean (M), are point estimates
+
+* The logic of confidence intervals is to report a range of values, rather than a single value
+* In other words, report an *interval estimate* than a *point estimate*
+
+CI: an interval estimate of a poulation parameter, based on a random sample
+  - Degree of confidence, for example 95%, represents the probability that the interval captures the true population parametr
+
+  - The main argument for interval estimates is the reality of sampling error
+  - Sampling error implies that point estimates will vary from one study to the next
+  - a researcher will therefore be more confident about accuracy with an interval estimate
+
+
+* !! The width of the confidence interval is influenced by
+
+  - Sample Size
+  - Variance in the population (and sample)
+
+  - CI Upper bound = M + t*SE
+  - CI Lower bound = M + t*SE
+
+  -> Standard Error (SE) = SD / SQRT(N)
+
+  - t depends on the level of confidence desired and sample size
+
+
+****************************************************
+* Confidence Intervals for regression coefficients 
+****************************************************
+In regression, t = B (unstandardized) / SE

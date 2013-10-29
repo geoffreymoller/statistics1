@@ -1,4 +1,7 @@
 * Correlation 
+
+  "When you're doing correlational analysies/studies, you typically need large samples"
+
   - procedure used to measure and describe the relationship between two variables
   - can range between +1 & -1
   - think scatterplot

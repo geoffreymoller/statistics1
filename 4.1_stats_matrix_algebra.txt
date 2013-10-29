@@ -1,0 +1,22 @@
+Matrix Algebra
+
+GO AHEAD AND WATCH THIS AGAIN
+
+Important Concepts
+  - Matrix addition/subtraction/multiplication
+  - Special types of matrices
+    * Correlation Matrix
+    * Sum of squares / Sum of cross products matrix
+    * Variance / Covariance Matrix
+
+- A matrix is a rectangular table of know or unknown numbers
+  - Matrix Order
+    Matrix algebra is "Really Cool"
+      (the order of the matrix is 4x2 rows times columns)
+  - The "transpose" of a matrix is formed by rewreting its rows as columns
+  - Two matrices by be added or substracted ONLY IF they are of the same order
+  - Two matrices may be multiplied when the number of columns in the first matrix is equal to the number of rows in the second matrix
+    - If so, then we say they are comfortable for matrix multiplication
+    - Resulting matrix is of order (rows in first) by (columns in second)
+
+
