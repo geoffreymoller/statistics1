@@ -25,6 +25,7 @@ Notation 2:
   (In R, function "lm")
 - Y is a linear function of X1
 - B0 = intercept = regression constant
+  - Predicted score on the outcame variable when all the xs are 0
 - B1 = slope = regression coefficient
 - e = error (residual)
 

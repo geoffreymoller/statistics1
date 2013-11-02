@@ -26,7 +26,7 @@ To calculate SP:
 SP = ∑[(X - MsubX) x (Y - MsubY)] 
 
 Get, Practice Formulae 
-  Pearson product-moment correlation coefficient (Pearson's R)
+  Pearson product-moment correlation coefficient (Pearson's r)
     - Raw Score Formula
     - Z-score formula
   Sum of Cross Products and Covariance

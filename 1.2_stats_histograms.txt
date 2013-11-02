@@ -7,7 +7,6 @@ Histograms!
 Viewing a hist often reveals whether a distribution is normal or not normal
   - sometimes hard to determine, but then we can use summary stastics to help
 
-
 "The skew is where there's few"
 
 Bimodal - evidence of two peaks

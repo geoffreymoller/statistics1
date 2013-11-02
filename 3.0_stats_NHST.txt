@@ -35,7 +35,7 @@ If the alternative hypothesis predicts the direction of the relationship between
 
 p-value (statistically significance) comes from the null hypothesis:
   Given that the null hypothesis is true, the probability of these, or more extreme data, is p
-  NOT: the probability of the null hypothesis being true is p
+  IT'S NOT: the probability of the null hypothesis being true is p
   IOW: P(D|H0) != P(H0|D)
   "probability of obtaning those data, given the assumption that there was no effect/relationship in the study/experiment)
 

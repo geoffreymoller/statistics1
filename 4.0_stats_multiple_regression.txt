@@ -1,7 +1,5 @@
 Multiple Regression
 
-GO AHEAD AND WATCH THIS AGAIN
-
 Important Concepts
   - Multiple regression equation
   - interpretation of regression coefficients

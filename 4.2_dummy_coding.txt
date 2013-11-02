@@ -1,0 +1,16 @@
+***********************************
+* Dummy Coding                    *
+***********************************
+- A system to code categorical variables/predictors
+  - system to put a numerical value on each category/group
+  - pick one level of your categorical independent variable and make it the reference (that one gets all zeroes across all the codes), as many codes as groups-1
+    => allows you look at categorical predictors in the same model as continuous predictors
+
+Example: 
+  - IV: Area of research in a Psych department
+    - cognitive
+    - clinical
+    - developmental
+    - social
+  - DV: Number of publications
+

@@ -4,6 +4,11 @@ Assumptions when interpreting r
 - Linear relationship between X and Y
 - Homescedasticity
 - Examine residuals to evaluate assumptions
+  - http://stattrek.com/regression/residual-analysis.aspx
+  * Residual: The difference between the observed value of the dependent variable (y) and the predicted value (ŷ) is called the residual (e). Each data point has one residual.
+  * Residual = Observed value - Predicted value 
+  e = y - ŷ
+
   (run regression analysis and save the residuals, then)
 
 To test assumptions, save residuals
