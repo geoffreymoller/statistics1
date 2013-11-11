@@ -21,13 +21,13 @@
 * Central Limit Theorem
 
   3 Principles
-    - The mean of the sampling distribution is the same as the mean of the population
-      (!!!and if we're assuming the null hypothesis is true => that mean will be 0)
-    - The standard deviation of the sampling distribution is the square root of the variance of sampling distribution
-    - !!! The shape of the sampling distribution is *approximately* normal if either (a) N >= 30 or (b) the of the population distribution is normal
-      - what you get is a t-distribution (from the family of t-distributions) depending on sample size
-      - as your sample size gets smaller, your t-distribution gets wider
-      - => get the p-value by picking your t-distribution based on sample size, and then find the corresponding p-value
+- The mean of the sampling distribution is the same as the mean of the population
+  (!!!and if we're assuming that the null hypothesis is true => that mean will be 0)
+- The standard deviation of the sampling distribution is the square root of the variance of sampling distribution
+- !!! The shape of the sampling distribution is *approximately* normal if either (a) N >= 30 or (b) the of the population distribution is normal
+  - what you get is a t-distribution (from the family of t-distributions) depending on sample size
+  - as your sample size gets smaller, your t-distribution gets wider
+  - => get the p-value by picking your t-distribution based on sample size, and then find the corresponding p-value
 
     * Multiple Regression
 

@@ -23,7 +23,7 @@ r = (Covariance of X & Y) / (Variance of X & Y)
 To calculate SP:
 
 (x - MsubX) x (Y - MsubY)
-SP = ∑[(X - MsubX) x (Y - MsubY)] 
+SP (sum of cross products) = ∑[(X - MsubX) x (Y - MsubY)] 
 
 Get, Practice Formulae 
   Pearson product-moment correlation coefficient (Pearson's r)

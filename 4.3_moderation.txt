@@ -1,0 +1,64 @@
+***********************************
+* Moderation                      *
+***********************************
+"The moderator variable has the ability to *influence* over other effects/relationships in multiple regression"
+"The moderation predicts that the relationship between X and Y will change as a function of Z"
+"Mediator is designed to *explain* the regression model"
+
+Experiment interpretation at 18m of "14 - 1 - Example 1 (27-13).mp4"
+
+"When doing a moderation analysis, it's important to keep the summary statistics and correlations on hand, because when you start to look at the regression coefficients, things can get confusing"
+
+Ex:
+X: Experimental manipulation
+  - Stereotype threat
+Y: Behavioral outcome
+  - IQ test score
+Z: Moderator
+  - Working memory capacity (WMC)
+
+* A moderator variable (Z) will enhance a regression model if the relationship between X & Y varies as a function of Z
+applied in Experimental research
+  - The manipulation of an IV (X) causes change in a DV (Y)
+  - A moderator variable (Z) implies that the effect of the IV on the DV (X on Y) is NOT consistent across the distribution of Z
+  - !!! "What the moderator var implies is that the effect of the independent var on the dependent var depends on Z (the moderator var)"
+  - changes as a function of Z => adding in the moderator would ENHANCE the regression
+
+  Y = B0 + B1X + e
+  !CAUTION!
+    - If there is a moderator Z, then B1 will NOT be representative across all Z
+      - The relationship between X and Y is different at different levels of Z
+
+  SETUP THE REGRESSION FOR MODERATION
+
+  1. If both X and Z are continuous
+    Y = B0 + B1X + B2Z + B3(X*Z) + e
+      (Reminder, this would be NO moderation: Y = B0 + B1X + B2Z + e)
+      - "this is also how we trick the GLM into testing non-linear shits
+      - "the GLM doesn't know that our 3rd predictor is a product"
+
+  1. If X is categorical and Z is continuous
+    Y = B0 + B1(D1) + B2(D2) + B3Z + B4(D1*Z) + B5(D2*Z) e
+      (Reminder, this would be NO moderation: Y = B0 + B1(D1) + B2(D2) + B3Z + e)
+
+  * Test for moderation - "Run the unmoderated, then run moderated, see if the latter is a better fit"
+    - Compare Model 1 and Model 2 in terms of overall variance explained, that is, R^2
+      - NHST available for this comparison
+    - Evaluate B values for predictors associated with the moderation effect
+      - (X*Z)
+      - (D1*Z) and (D2*Z)
+
+* Simulated experiment
+  experiment:
+    - Students completed a working memory task
+    - Students then randomly assigned to one of three experimental conditions
+      - Explicit threat(n = 50)
+      - Implicit threat(n = 50)
+      - Control (n = 50)
+    - Students then completed an IQ test
+
+  Experimental condition is categorical so dummy coding is required
+    - let the control group be the referenc
+    - let D1 = Explicit threat
+    - let D2 = Implicit threat
+

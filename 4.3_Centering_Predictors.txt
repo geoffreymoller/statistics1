@@ -1,0 +1,44 @@
+************************
+* Centering Predictors *
+************************
+- If we have a continuous predictor, we have to center it.
+  - Just by centering, our constant will make a lot more sense
+  - WE'RE CHANGING OUR REGRESSION CONSTANTS AND MAKING THEM EASIER TO INTERPRET
+  - (B0 will be when X+Z are at average values, as oppposed to zeros)
+  - during centering, the highest order terms may change, but things that fall below it *may* change
+
+- To center meants to put in deviation form
+  - XC = X-M
+    - the mean will be zero; this is helpful
+- Why center?
+  - two reasons
+
+    - CONCEPTUAL
+      - REGRESSION CONSTANT WILL BE MORE MEANINGFUL
+
+      - If X = 0 or Z = zero is meaningless, or impossible, then B0 will be difficult to interpret
+      - In contrast, if X = 0 and Z = 0, then B0 is easy to interpret
+        - (B0 will be when X+Z are at average values, as oppposed to zeros)
+      - a moderation effect implies that B1 is NOT consistent across the entire distribution of Z
+      - Where in the distribution of Z is B1 most representative of the relationship between X & Y?
+
+  NO Moderation
+    uncentered: Y = 2 + .6(X) + .2(Z)
+    centered: Y = 6 + .6(X) + .2(Z)
+    * If I center the variables, the regression constant will change, but the slopes will stay the same
+
+  Moderation
+    uncentered: Y = 2 + .6(X) + .2(Z) + .4 (X * Z)
+    centered: Y = 16 + 2.6(X) + 2.2(Z) + .4 (X * Z)
+    * If I center the variables, the regression constant will change, but the slopes of the higher order term stays the same
+
+  * !Center all your predictors when doing continuous regression
+    - it's ESSENTIAL when doing a moderation analysis
+
+    - STATISTICAL
+      - AVOID MULTICOLINEARITY
+
+      (X * Z) - The predictors, X & Z, canbecome highly correlated with the product, (X*Z) 
+      - Multicolinearity: when two predictor variables in a GLM are so highly correlated that they are essentially redundant and it becomes difficult to estimate B values associated with each predictor
+      "no hard and fast rule, but anything >= .8 is treacherous territory"
+      (If two predictors in a regression model are correlated over .8, they're pretty redudant, and might cause problems in the matrix algebra

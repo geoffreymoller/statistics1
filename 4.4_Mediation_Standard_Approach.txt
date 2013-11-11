@@ -1,0 +1,48 @@
+*********************
+* Mediation
+*********************
+- Mediation & Moderation sound alike but they are quite different
+- Mediation says "what accounts for the relationship between X & Y"
+- A mediation analysis is typicall conducted to better understand an observed effect of an IV on a DV or a correlation between X & Y
+- Correlation does not imply causation. It's very difficult to get at the mechanisms behind correlation - Mediation is one tool to do that.
+- A mediator variable (M) accounts for some or all of the relationship between X & Y
+  - Some: Partial Mediation
+  - All: Full mediation
+    - THE DIRECT EFFECT IS NO LONGER SIGNIFICANT AFTER ADDING THE MEDIATOR INTO THE REGRESSION EQUATION
+    - the Sobel test is significant
+
+  !CAUTION
+    - correlation does not imply causation!
+    - In other words, there is a BIG difference between statistical mediation and true casual mediation
+
+  HOW TO DO?
+    FMTO: "for mediation to occur"
+    Run three regression models
+      lm(Y~X) Predict Y from X
+        FMTO: Regression coefficient for X should be sigficant
+      lm(M~X) Predict mediator from X 
+        FMTO: Regression coefficient for X should be sigficant
+      lm(Y~X+M) Predict Y from X and the mediator
+        FMTO: Regression coefficient for M should be sigficant
+          - what happens to the regression coefficient for X?
+
+  **************************
+  * Path Analysis Approach
+  **************************
+    Mediation analyses are typicall illustrated using "path models"
+      - pm: form of structural equation models
+        - Rectangles: Observed variables(X,Y,M)
+        - Circles: Unobserved variables (e)
+        - Triangles: Constants
+        - Arrows: Associations (more on these later)
+
+    In pm: a directional arrow *implies* causality
+      - people start to slip here
+      - if we're dealing with correlational data => NOT CAUSALITY
+
+   * Sobel Test: An NHST that the indirect effect is 0
+
+
+  Lab Hints:
+    Is the change in R^2 significant?
+      - Run Anova and look at the p-value
