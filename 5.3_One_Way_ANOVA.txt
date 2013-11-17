@@ -1,0 +1,66 @@
+******************
+*  One-Way ANOVA *
+******************
+Analysis of Variance
+
+* ANOVA is used to compare means, typically in experimental research
+  - Categorical IV
+  - Continuous DV
+  - Evaluate with Levene's test
+  - Post-hoc tests, such as Tukey's procedure, allow for multiple pairwise comparisons without an increase in the probability of a Type I error
+  - A F-ratio tells us if there is a significant effect *somewhere* across our groups, but *where* is determined with post-hoc tests (which pairwise comparisons are significant)
+
+* Appropriate when the predictors (IVs) are all categorical and the outcome (DV) is continuous
+  - Most common application is to analyze data from randomized controlled experiments
+
+  * More specifically, randomized controlled experiments that generate more than two group means    - If only two group means then use:
+      - Independent t-test
+      - Dependent t-test (AKA paired samples t-test)
+
+  * If more than two group means then use:
+    - Between groups ANOVA
+    - Repeated measures ANOVA
+
+    "NULL Hypothesis in ANOVA is that all groups are equal -> nothing is happening"
+
+    Anova will tell us "is there a significant difference somewhere" -> that's what the f-ratio will us, then we'll do post-hoc tests
+
+  * ANOVA typically involves NHST (but doesn't have to)
+  * The test statistic if the F-test (F-ratio)
+    - F = (Variance between groups) / (Variance within groups)
+      - if you get 2 or 3 or more for the ratio, you probably have a significant effect
+
+  * Like the t-test and family of t-distributions
+  * The F-test has a family of F-distributions
+    - The distribution to assume depends on 
+      - Number of subjects per group
+      - Number of groups
+
+    Fisher's F
+      - Ratio, so bounded at 0 (can't get negative values)
+  
+      F = between-groups variance / within-groups variance
+      F = MS(between) / MS(within)
+      F = MS(A) / MS(S/A)
+
+      MS(A)  SS(A) / df(A)
+      MS(S/A) = SS(S/A) / df(S/A)
+
+Assumptions:
+  * Continuous DV (interva or ratio)
+  * DV is normally distributed
+  * Homogeneity of variance
+    - Verify with Levene's test
+      - if Levene's is significant then homogeneity of variance assumption has been violated
+        - conduct pairwise comparisons using a restricted error term
+
+- REVIEW: MEANS SQ IS ALWAYS SUMS OF SQUARES / DEGREES OF FREEDOM
+
+
+
+
+
+
+
+
+

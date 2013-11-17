@@ -1,0 +1,57 @@
+***********************
+* dependent t-tests *
+***********************
+- Also know as paired samples t-test
+  - Appropriate when the same subjects are being compared
+    - For example, pre/post design
+  - Or when two samples are matched at the level of individual subjects
+    - Allowing for a difference score to be calculated
+  "one measure is dependent on the other => they're related"
+
+  - A thorough analysis will include
+    - t-value
+    - p-value
+    - Cohen's d (effect size)
+    - Confidence interval (interval estimate)
+
+  - t = (Observed - Expected) / SE
+  - t = (M - 0) / SE = M / SE
+
+  - p-value based on t-value and the t-distribution
+  - Directional or non-directional test
+
+  Supplement it with effect size:
+  - Cohen's d
+    - d = M/SD
+    - "How much in SD units does 1 mean differ from another"
+
+  CI
+    - Upper Bound = M + t(SE)
+    - Lower Bound = M - t(SE)
+
+    -t-value depends on level of confidence and t-distribution
+
+    t.test(australia.red, australia.white, paired=T)
+      - r gives you an interval around the MEAN DIFFERENCE
+    effect size:
+      cohensD(australia.red, australia.white, method='paired')
+      0.8021 (in SDs) - that would be significant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

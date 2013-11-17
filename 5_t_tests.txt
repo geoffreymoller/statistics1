@@ -1,0 +1,67 @@
+***********
+* t-tests *
+***********
+- Nothing beats a simple elegaant randomized controlled experiment for correlation, causality
+
+- The multiple regression examples were complicated, considering the limitations placed on the final interpretations, for ex:
+  - The slope for X is B
+  - But if you add another X the slope changes
+  -or-
+  - X & Y are correlated
+  - But if you add a moderator variable,
+  - X & Y are not correlated
+
+- Let's assume a simple experimental desgin
+  - Independent variable
+    - Vaccine
+    - Placebo
+  - Dependent variable
+    - Rate of polio
+
+  - Two means can be compared using a t-test
+    - NHST can be conducted, yielding a p-value
+    - Effect size can also be calculated
+    - Confidence intervals around the sample means can also be reported
+
+- There are different kinds of tests that compare means
+  - z-test
+  - t-test (single sample)
+  - t-test (dependent)
+  - t-test (independent)
+
+  - Why is it called Student's t-test?
+    - Developed by William Gossett in 1908
+      - To monitor the quality of stout beer at the Guiness brewerey in Dublin, Ireland
+      - Managment at Guiness considered their process a secret so they convinced Gossett to publish his work using the pen name "Student"
+
+  Designed to compare means
+    z = (Observed - Expected) / SE
+    t = (Observed - Expected) / SE
+    "We need to get a difference in the numerator that's at least 2x compared to what happens duet to chance to claim that you have a statistically sigfinicant effect"
+
+  z-test: pretty rare
+    - When comparing a sample mean to a population mean and the standard deviation of the population is known <- RARE
+  Single sample t-test: pretty rare
+    - When comparing a sample mean to a population mean and the standard deviation of the population is not known <- RARE
+
+    Dependent t-test
+      - When evaluating the difference between two related samples
+        - (same people measured twice)
+        - calc different score and see if the mean different score is different from 0 => signficant change
+    Independent t-test  
+      - When evaluating the difference between two independent samples
+        - (men v women, vaccinated v placebo, etc)
+ 
+Exact p-values depends on:
+  - Directional or non-directional test
+  - Degrees of freedom (df)
+    - Different t-distributions for different sample sizes
+
+  - if you do a z test, your sampling distribution  is mean 0 normal dist
+    - cutoff for alpha .05 for is 1.96 => beyond 1.96 is significant for z-test at alpha .05
+
+  - if you do a t test you have your family of t distributions
+    - p-value is the area under the curve at that point and beyond
+      - if you get a really low one => extreme value, reject the null
+
+

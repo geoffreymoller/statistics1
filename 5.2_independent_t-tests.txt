@@ -1,0 +1,49 @@
+***********************
+* independent t-tests *
+***********************
+
+- WHEN THERE ARE MORE THAN TWO GROUP MEANS TO COMPARE, CONDUCT ANALYSIS OF VARIANCE (ANOVA)
+
+- Compares two independent samples
+  - For example, males & femails, control & experimental, patients & healthy controls
+ 
+  - t-value
+    - t = (Observed - Expected) / SE
+    - t = (M1 - M2) / SE
+
+    - SE = (SE1 + SE2) / 2
+
+  - p-value
+    - based on t-value and the t-distribution
+    - Directional or no-directional test
+  
+  - Cohen's d
+    - d = (M1 - M2) / SD(pooled)
+    - where SD(pooled) = (SD1 + SD2) / 2
+
+  CI
+    - Upper Bound = M + t(SE)
+    - Lower Bound = M - t(SE)
+
+    -t-value depends on level of confidence and t-distribution
+
+  * Homgeneity of variance assumption
+    - The pooled SD is appropriate only if the variances in the two groups are equivalent
+    - If not, then the homgeneity of variance assumption is violated
+      * Simulations indicate this results in an increas in the probability of a Type I error
+
+    - How to detect a violation:
+      Conduct Levene's Test
+        - if significant then the homogeneity of variance assumption is violated
+    - What to do if violated?
+      - (Might be telling you something interesting)
+      - Adjust df and p-value (Welch's procedure)
+      - Use a non-parametric test (Lecture 24)
+
+- Conducting multiple t-tests like that 
+  - Is tedious
+  - Increases the probability of a Type I error
+
+  - WHEN THERE ARE MORE THAN TWO GROUP MEANS TO COMPARE, CONDUCT ANALYSIS OF VARIANCE (ANOVA)
+
+

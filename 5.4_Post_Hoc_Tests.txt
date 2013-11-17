@@ -1,0 +1,11 @@
+******************
+* Post-Hoc Tests * 
+******************
+* Post-hoc tests, such as Tukey's procedure, allow for multiple pairwise comparisons without an increase in the probability of a Type I error
+  - constructed to handle it by adjusting the p-values
+  - LOTS of different procedures, all vary slightly in how they do the adjustment, from narrow to conservative
+    - most liberal: no adjustment
+    - most conservative: Bonferroni procedure
+
+  * If there is no effect, but I do the experiment 100 times, 5% of the time I'll get an effect even though there is none
+    => if doing multiple pairwise comparisons, we're inflating the probability of getting an error => build-in adjustments adjustments
